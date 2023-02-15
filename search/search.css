@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    justify-content: center;
+}
+
+/* .container1{
+    background-image: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Amity_University_Noida.jpg";
+} */
+.container {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ea/Amity_University_Noida.jpg");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.h1{
+    margin: 0;
+   
+
+}
+
+.container2 {
+    background-color: #ECF9FF;
+    padding-bottom: 50px;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    padding: 150px;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.h5 {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.uni {
+
+    width: 25%;
+    height: auto;
+    padding: 10px;
+
+}
+
+.searchbar {
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    outline: auto;
+    background: none;
+}
+
+.box {
+    flex-direction: column;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 60px;
+
+
+}
+
+.img-box {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.images {
+    max-height: 50px;
+    max-width: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bottom {
+    margin-top: 20px;
+    width: 50px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
